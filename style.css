@@ -298,6 +298,63 @@ ul li.playing{
   transform: translateX(0);
 }
 
+@media (max-width:450px) {
+  .wrapper {
+    width: 40vh;
+  }
+
+  .song-details {
+    margin: 20px 0;
+  }
+
+  .song-details .name {
+    font-size: 14px;
+
+  }
+
+  .song-details .artist {
+    font-size: 14px;
+  }
+
+  .img-area {
+    height: 150px;
+  }
+
+  .controls {
+    margin: 30px 0 5px 0;
+  }
+
+  .controls .play-pause {
+    height: 45px;
+    width: 45px;
+  }
+
+  .controls i:nth-child(2),
+  .controls i:nth-child(4) {
+    font-size: 40px;
+  }
+
+  .controls i {
+    font-size: 25px;
+  }
+
+  .music-list ul {
+    font-size: 12px;
+  }
+
+  .music-list ul li .row span {
+    font-size: 14px;
+  }
+
+  ul li .audio-duration {
+    font-size: 14px;
+  }
+
+  .header .row span {
+    font-size: 16px;
+  }
+}
+
 @keyframes slideAnimation{
   0% {
       opacity: 0;
